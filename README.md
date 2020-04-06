@@ -15,6 +15,10 @@ HTML, CSS, and JS challenge for Brainscape. Instructions can be found in the co-
 - [x] Make your page and accompanying assets available to us via a Git repo of your choosing (e.g Github, bitbucket, etc). Include a README file with instructions on how to build and access your page.
 - [x] You are free to ask questions by e-mail at rcadet@brainscape.com.
 
+## Demo
+
+[View Live!](https://bendyorke.github.io/brainscape-screener/)
+
 ## Installation
 
 To install the development dependencies, run:
