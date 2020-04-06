@@ -31,7 +31,7 @@ The only development dependency is grunt to autoprefix the css. To watch the sty
 npx grunt watch
 ```
 
-Then freely edit `style.raw.css`
+Then freely edit `style.raw.css`. Open `index.html` to view the file
 
 ## Build
 
