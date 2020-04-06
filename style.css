@@ -1,3 +1,89 @@
-html {
+html, body {
   font-family: "Open Sans";
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  background-image: url('./images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 526px;
+  position: relative;
+}
+
+.navigation {
+  background: rgba(0,0,0,0.25);
+}
+
+.primary-list {
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-item {
+  box-sizing: border-box;
+  color: white;
+  font-size: 22px;
+  padding: 18px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 2px black;
+  width: 200px;
+}
+
+.primary-item:hover {
+  background-color: rgba(0,0,0,0.7);
+  cursor: pointer;
+}
+
+.primary-item.active {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.secondary-list {
+  display: none;
+}
+
+.primary-item.active .secondary-list {
+  display: block;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  background: rgba(0,0,0,0.7);
+  right: 0;
+}
+
+.secondary-item {
+  box-sizing: border-box;
+  list-style-type: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  text-align: left;
+  text-shadow: none;
+}
+
+.secondary-item:hover {
+  background-color: black;
+}
+
+.title {
+  bottom: 30px;
+  color: white;
+  font-size: 85px;
+  text-shadow: 0 1px 2px black;
+  opacity: 0.85;
+  font-weight: 400;
+  left: 55px;
+  position: absolute;
 }

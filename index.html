@@ -2,22 +2,30 @@
 <html>
   <head>
     <title>Brainscape Screener</title>
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400&lang=en" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400&lang=en" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>The Experience</li>
-          <li>Pricing</li>
-          <li>About Us</li>
-          <li>Login</li>
+    <header class="hero">
+      <nav class="navigation">
+        <ul class="primary-list">
+          <li class="primary-item">Home</li>
+          <li class="primary-item active">
+            The Experience
+            <ul class="secondary-list">
+              <li class="secondary-item">Aurora Borealis</li>
+              <li class="secondary-item">Constellation</li>
+              <li class="secondary-item">Earth Orbit</li>
+              <li class="secondary-item">EVA</li>
+            </ul>
+          </li>
+          <li class="primary-item">Pricing</li>
+          <li class="primary-item">About Us</li>
+          <li class="primary-item">Login</li>
         </ul>
       </nav>
 
-      <div id="output"></div>
+      <div class="title">Constellation</div>
     </header>
     <script src="./core.js"></script>
   </body>
